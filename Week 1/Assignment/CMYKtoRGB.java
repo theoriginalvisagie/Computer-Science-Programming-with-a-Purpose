@@ -1,5 +1,5 @@
 public class CMYKtoRGB {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         double cyan = Double.parseDouble(args[0]);
         double magenta = Double.parseDouble(args[1]);
         double yellow = Double.parseDouble(args[2]);
@@ -10,9 +10,9 @@ public class CMYKtoRGB {
         double green = Math.round(255*white*(1-magenta));
         double blue = Math.round(255*white*(1-yellow));
 
-        int redInt = (int)red;
-        int blueInt = (int)blue;
-        int greenInt = (int)green;
+        int redInt = (int) red;
+        int blueInt = (int) blue;
+        int greenInt = (int) green;
 
 
         System.out.println("red = " + redInt);
