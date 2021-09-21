@@ -9,7 +9,7 @@ public class RightTriangle {
 		double cc = Math.pow(c, 2);
 
 		boolean isPositive = a > 0 && b > 0 && c > 0;
-		boolean isRight = isPositive && (aa + bb == cc ) || (aa + cc == bb) || (cc + bb == aa);
+		boolean isRight = isPositive && ((aa + bb == cc ) || (aa + cc == bb) || (cc + bb == aa));
 		System.out.println(isRight);
 
     }
