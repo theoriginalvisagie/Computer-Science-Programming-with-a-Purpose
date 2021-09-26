@@ -12,8 +12,10 @@ public class Gambler
             int cash = stake;
             while (cash > 0 && cash < goal)
             {
-                if (Math.random() < 0.5) cash++;
-                else cash--;
+                if (Math.random() < 0.5)
+                    cash++;
+                else 
+                    cash--;
             }
             if (t == goal) wins++;
         }
